@@ -1,0 +1,20 @@
+.h{
+	text-align: center;
+	padding-top: 20px;
+	background: #00FCFC;
+
+	border: 2px solid black;
+
+}
+.data{
+	margin-top: 10px;
+	border: 2px solid black;
+	
+}
+.n{
+
+	color: red;
+}
+.b{
+	color: blue;
+}

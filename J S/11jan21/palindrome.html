@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function pal()
+	{
+		var rem, t, a = 0;
+		var ni =prompt("enter a number");
+		var n=parseInt(ni)
+		let l=ni.length;
+		t = n;
+		for(let i=0;i<l;i++)
+		{
+			rem = n%10;
+			n = Math.floor(n/10);
+			a = a*10+rem;
+		}
+       
+    	if(a==t)
+    	{
+    		document.write("Palindrome<br>");
+    	}
+    	else{
+    		document.write("Not a Palindrome<br>");
+    	}
+
+	}
+	function ams()
+	{
+		var rem, t, a = 0;
+		var ni =prompt("enter a number");
+		var n=parseInt(ni)
+		a=n.reverse();
+		console.log(a);
+    	if(a==t)
+    	{
+    		document.write("Palindrome<br>");
+    	}
+    	else{
+    		document.write("Not a Palindrome<br>");
+    	}
+
+	}
+	
+	ams();
+
+</script>
+</body>
+</html>

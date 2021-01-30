@@ -1,0 +1,56 @@
+.bo{
+	background-color: green;
+	opacity: .7;
+	width: 600px;
+	height: 500px;
+}
+.co{
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	background-color: white;
+	width: 450px;
+	height: 350px;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 40px;
+}
+.h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+.h4{
+	font-style: italic;
+}
+.add{
+	background-color: blue;
+	color: white;
+	border-radius: 15px;
+	width:50px;
+	height: 35px;
+	border-style: none;
+}
+.bu1{
+	width: 120px;
+	height: 35px;
+	color: white;
+	background-color: blue;
+	border-radius: 20px;
+	border-style: none;
+}
+.bu2{
+	width: 120px;
+	height: 35px;
+	color: white;
+	background-color: red;
+	border-radius: 20px;
+	border-style: none;
+}
+.bu3{
+	width: 120px;
+	height: 35px;
+	color: white;
+	background-color: green;
+	border-radius: 20px;
+	border-style: none;
+}

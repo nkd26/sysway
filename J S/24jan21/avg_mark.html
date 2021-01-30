@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="avg_mark.css">
+</head>
+<body>
+	<img class="bo" src="https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-cartoon-fresh-blue-simple-start-season-background-image_276850.jpg">
+	<input type="text" id = "a" ><p id="ap">Subject 1</p>
+	<input type="text" id = "b"><p id="bp">Subject 2</p>
+	<input type="text" id = "c"><p id="cp">Subject 3</p>
+	<input type="text" id = "d"><p id="dp">Subject 4</p>
+	<input type="text" id = "e"><p id="ep">Subject 5</p>
+	<input type="text" id = "f"><p id="fp">Subject 6</p>
+	<button onclick="avg()">submit</button>
+	<p id="avg"></p>
+	<p id="tot"></p>
+	<p id="grd"></p>
+	<script type="text/javascript">
+		function avg()
+		{
+		 var a=parseInt(document.getElementById('a').value);
+		 var b=parseInt(document.getElementById('b').value);
+		 var c=parseInt(document.getElementById('c').value);
+		 var d=parseInt(document.getElementById('d').value);
+		 var e=parseInt(document.getElementById('e').value);
+		 var f=parseInt(document.getElementById('f').value);
+		 var tot = a+b+c+d+e+f;
+		 var avg = (tot/6).toFixed(3);
+		 document.getElementById('tot').innerHTML='Total Mark ' +tot;
+		 document.getElementById('avg').innerHTML= "Avg Mark " +avg;
+		 if(avg>=90)
+		 {
+		 	document.getElementById('grd').innerHTML="Grade A";
+		 }
+		 if(avg>=75 && avg<90)
+		 {
+		 	document.getElementById('grd').innerHTML="Grade B";
+		 }
+		 if(avg>=60 && avg<75)
+		 {
+		 	document.getElementById('grd').innerHTML="Grade C";
+		 }
+		 if(avg>=50 && avg<65)
+		 {
+		 	document.getElementById('grd').innerHTML="Grade D";
+		 }
+		 if(avg>=30 && avg<50)
+		 {
+		 	document.getElementById('grd').innerHTML="Grade E";
+		 }
+				if(avg>=0 && avg<30){
+					document.getElementById('grd').innerHTML="Grade F";
+				}
+		}
+
+	</script>
+</body>
+</html>

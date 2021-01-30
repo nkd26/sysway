@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="ass1.css">
+</head>
+<body>
+	<h1>PF & HRA CALCULATOR</h1>
+	<img class="bo" src="https://thumbs.dreamstime.com/b/autumn-thanksgiving-background-pumpkins-maple-leaves-turquoise-table-above-autumn-thanksgiving-background-pumpkins-160472384.jpg">
+<input type="text" id="basic" placeholder="Basic pay">
+	
+	<button onclick="ch1()" id="b1"> PF </button>	<p id=p1></p>
+
+	<button onclick="ch2()" id="b2"> HRA </button>	<p id=p2></p>
+	<script type="text/javascript">
+		function ch1()
+		{
+			var a=parseInt(document.getElementById('basic').value);
+			var p=(a/100)*10;
+			document.getElementById('p1').innerHTML="PF IS = "+p;
+		}
+		function ch2()
+		{
+			var a=parseInt(document.getElementById('basic').value);
+			var h=(a/100)*25;
+			document.getElementById('p2').innerHTML="HRA IS = "+h;
+		}
+	</script>
+</body>
+</html>

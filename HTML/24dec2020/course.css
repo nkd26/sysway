@@ -1,0 +1,186 @@
+.bo{
+	background: #161A1E;
+	position: relative;
+
+	width: 1330px;
+	height: 1100px;
+
+}
+.img{
+	position: absolute;
+	left: 150px;
+	
+	width: 1000px;
+	height: 1100px;
+	filter: contrast(30%);
+	filter: brightness(20%);
+
+}
+.img1{
+	position: relative;
+
+	width: 1000px;
+	height: 520px;
+}
+.img2{
+	position: relative;
+	bottom: 20px;
+	width: 1000px;
+	height: 540px;
+	filter: contrast(40%);
+	filter: brightness(40%);
+}
+header{
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	z-index: 1;
+	
+	color: white;
+	width: 500px;
+	height: 300px;
+}
+.h2{
+	font-size: 30px;
+}
+.or{
+	color: orange;
+}
+.upb{
+	position: absolute;
+	background: rgba(255,255,255,.1);
+	z-index: 1;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	height: 60px;
+	width: 350px;
+
+
+}
+aside{
+	position: absolute;
+	background: rgba(255,255,255,.1);
+
+	top: 50px;
+	right: 200px;
+	z-index: 1;
+	
+	height: 400px;
+	width: 350px; 	
+}
+table{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	
+	height: 80px;
+	width: 400px;
+}
+td{
+	width: 100px;
+	background: rgba(255,255,255,.1);
+	
+	margin-left: 20px;
+}
+.d{
+	font-size: 15px;
+	color: orange;
+}
+.un{
+	position: relative;
+	top: 120px;
+	left: 50px;
+	height: 32px;
+	width: 250px;
+	background: rgba(255,255,255,.1);
+	border-style: none;
+}
+.get{
+	position: absolute;
+	top: 300px;
+	left: 130px;
+	height: 35px;
+	width: 100px;
+	color: white;
+	border-style: none;
+	background: orange;
+}
+article{
+	
+	position: relative;
+	top: 510px;
+	left: 150px;
+	height: 500px;
+	width: 1000px;
+}
+.bu{
+	background: transparent;
+	border: 1px solid rgba(255,255,255,.2);
+	color: rgba(255,255,255,.6);
+	position: absolute;
+	left: 400px;
+	top: 50px;
+	height: 40px;
+}
+.vr{
+	position:absolute;
+	left: 470px;
+	top: -6px;
+	border-left: 1px solid rgba(255,255,255,.2);
+	height: 56px;
+}
+section{
+	position: relative;
+	background: white;
+	
+	top: 150px;
+	
+	width: 178px;
+	height: 350px;	
+	float: left;
+	margin-left: 20px;
+
+}
+.poi{
+	position: absolute;
+	bottom: 10px;
+	z-index: 1;
+
+
+	height: 50px;
+	width: 50px;
+	border-radius: 30px;
+}
+
+.imse{
+	position: absolute;
+	top: -1px;
+	left: -1px;
+
+	height: 140px;
+	width: 180px;
+}
+.poh{
+	position: absolute;
+	top: 130px;
+	left: 10px;
+}
+.po{
+	position: absolute;
+	top: 160px;
+	left: 10px;
+
+}
+.popop{
+	position: absolute;
+	z-index: 1;
+	bottom: 10px;
+	right: 5px;
+	background: transparent;
+	border-style: none;
+	font-weight: bold
+}
+.spa{
+	color: orange;
+}

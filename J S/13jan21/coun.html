@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="coun.css">
+</head>
+<body>
+<input type="text" id="cou" placeholder="Enter  some text">
+<p id="dis"></p>
+<p id="dis1"></p>
+<button onclick="co()">Click for counting word</button>
+<script type="text/javascript">
+	function co()
+	{
+	var y=document.getElementById('cou').value;
+	var x=y.length;
+	document.getElementById('dis').innerHTML = x;
+	document.getElementById('dis1').innerHTML = "The length of "+y+" is "+x;
+}
+</script>
+</body>
+</html>

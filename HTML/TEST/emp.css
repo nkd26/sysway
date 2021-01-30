@@ -1,0 +1,101 @@
+body{
+	background: #F0F3F4;
+}
+aside{
+	position: relative;
+	
+	height: 600px;
+	width: 200px;
+	border-radius: 20px;
+	text-align: center;
+}
+.si{
+	height: 600px;
+	width: 200px;
+	border-radius: 20px;
+}
+.lo{
+	position: absolute;
+	top: -10px;
+	left: 5px;
+	text-align: center;
+	color: white;
+}
+.l{
+	
+	font-size: 70px;
+	color: white;
+}
+.su{
+	position: absolute;
+	top: 130px;
+	list-style-type: none;
+}
+.sb{
+	background: transparent;
+	border-style: none;
+	color: white;
+	font-weight: bold;
+	width: 180px;
+	height: 45px;
+	border-radius: 40px;
+	cursor: pointer;
+	text-align: left;
+}
+
+.sb:hover{
+	background: #F0F3F4;
+	border-style: none;
+	color: black;
+	width: 180px;
+	height: 45px;
+	border-radius: 40px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.lk{
+	background: #F0F3F4;
+	border-style: none;
+	color: black;
+	width: 180px;
+	height: 45px;
+	border-radius: 40px;
+	font-size: 15px;
+	font-weight: bold;
+}
+article{
+	height: 580px;
+	width: 1000px;
+	position: absolute;
+	top: 10px;
+	left: 250px;
+	
+}
+
+.ai{
+	height: 590px;
+	width: 1080px;
+	border-radius: 20px;
+}
+table,td,tr,th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: white;
+	width: 700px;
+	height: 40px;
+	background: rgba(0,0,0,.2);
+}
+table{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+.ed{
+	color: orange;
+	text-decoration: none;
+}
+caption{
+	font-size: 40px;
+	color: yellow;
+}

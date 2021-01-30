@@ -1,0 +1,101 @@
+	border: 2px solid black;
+body
+{
+	background: url("https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app05.jpg")
+}
+table
+{
+	
+	column-span: none;
+
+	width: 500px;
+	
+	margin-left: 200px;
+	background: white;
+	
+
+}
+.m th{
+	background: blue;
+}
+a{
+	
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+}
+img
+{
+	width: 100%;
+	height: 150px;
+
+}
+h4{
+	text-align: right;
+	background: blue;
+}
+.h{
+	background: blue;
+	font-size: 15px;
+	text-align: right;
+}
+.p{
+	font-size: 10px;
+}body
+{
+	background: url("https://media.istockphoto.com/vectors/dark-abstract-background-vector-illustration-vector-id929619614?k=6&m=929619614&s=612x612&w=0&h=eLOtWf9cUmg9HdMV4GXxT2IgagJJxN1UCqIEgI_Y6HQ=")
+}
+table
+{
+	
+	column-span: none;
+
+	width: 700px;
+	
+	margin-left: 280px;
+	background: white;
+	
+
+}
+.m th{
+	background: blue;
+}
+a{
+	
+	font-size: 15px;
+	color: red;
+	text-decoration: none;
+}
+img
+{
+	width: 100%;
+	height: 300px;
+
+}
+h4{
+	text-align: right;
+	background: blue;
+}
+
+
+.si{
+	background-color: gray;
+ 	vertical-align: top;
+ 	width: 130px;
+
+}
+.sia{
+	color: white;
+	text-decoration: underline;
+}
+.h{
+
+	background: white ;
+	font-size: 20px;
+	
+	color: hotpink;
+	font-weight: bold;
+}
+.p{
+	font-size: 20px;
+}

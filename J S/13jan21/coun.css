@@ -1,0 +1,56 @@
+body{
+	background: lightgreen;
+}
+#cou{
+	border-style: none;
+	border-radius: 20px;
+	height: 50px;
+	width: 600px;
+	position: absolute;
+	left: 400px;
+	text-align: center;
+	top: 100px;
+}
+#dis{
+	position: absolute;
+	left: 650px;
+	top: 200px;
+	padding-top: 10px;
+	height: 40px;
+	width:	50px;
+	background: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+}
+#dis1{
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	text-align: center;
+	height: 30px;
+	width:	400px;
+	color: black;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 0px 20px  red;
+}
+#dis:focus{
+border-style: none;
+}
+button{
+	position: absolute;
+	border-radius: 20px;
+	background: orange;
+	border-style: none;
+	color: white;
+	left: 480px;
+	top: 450px;
+	height: 50px;
+	width:	450px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+button:hover{
+	box-shadow: 5px 5px 10px , -5px -5px 10px;
+}

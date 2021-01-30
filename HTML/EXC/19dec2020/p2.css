@@ -1,0 +1,63 @@
+body{
+	
+}
+.bo{
+	position: relative;
+	
+	height: 630px;
+	width: 1150px;
+	filter: contrast(80%);
+	filter: brightness(40%);
+}
+img{
+	position: absolute;
+	height: 640px;
+	width: 1350px;
+}
+.ne{
+	position: absolute;
+	top: 10px;
+	left: 150px;
+}
+.styt{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+.lo{
+	color: #F06881;
+	font-weight: bold;
+	font-family:Forte;
+	font-size: 30px;
+}
+
+
+.con{
+	position: absolute;
+	top: 260px;
+	left: 200px;
+	
+	color: white;
+	height: 300px;
+	width: 900px;
+	text-align: center;
+}
+hr{
+	color: white;
+	size: 2px;
+}
+.conp{
+	font-size: 20px;
+}
+.cp{
+	font-size: 50px;
+}
+input{
+	background-color: rgba(255, 255, 255, 0.2);
+	height: 30px;
+	width: 300px;
+	
+	border-style: none;
+}

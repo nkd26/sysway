@@ -1,0 +1,112 @@
+body{
+	background: gray;
+}
+.bo{
+	
+	height: 1030px;
+	width: 1200px;
+	background: white;
+	position: relative;
+	top: 10px;
+	left: 80px;
+
+}
+.cn
+{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Snap ITC;
+	color: red;
+
+}
+.so{
+	
+	height: 80px;
+	background: #D0D3D4;
+	padding-left: 10px;
+	margin-bottom: 80px;
+	
+}
+.h2
+{
+	margin: 0px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.spo{
+	font-size: 18px;
+	
+}
+.op{
+	opacity: .7	;
+}
+.sb{
+	padding-left: 10px;
+	
+	width: 180px;
+	height: 723px;
+}
+h3{
+	margin: 0px;
+}
+ul{
+	list-style: none;
+	opacity: .7;
+}
+li{
+	margin: 4px;
+}
+select{
+	border: 0px;
+	outline: 0px;
+	background: transparent;
+	cursor: progress;
+
+}
+.q{
+	font-size: 15px
+	opacity:.7;
+}
+.im1{
+	position: absolute;
+	top: 290px;
+	left: 360px; 
+	}
+.im2{
+	position: absolute;
+	top: 290px;
+	left: 630px; 
+	}
+	.im3{
+	position: absolute;
+	top: 290px;
+	left: 900px; 
+	}
+.im4{
+	position: absolute;
+	top: 670px;
+	left: 360px; 
+	}
+.im5{
+	position: absolute;
+	top: 670px;
+	left: 630px; 
+	}
+	.im6{
+	position: absolute;
+	top: 670px;
+	left: 900px; 
+	}
+
+
+img{
+	height: 250px;
+	width: 200px;
+	cursor: pointer;
+}
+.se{
+	margin-left: 10px;
+}
+hr{
+	opacity: .6;
+}

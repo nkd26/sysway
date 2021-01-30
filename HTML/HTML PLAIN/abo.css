@@ -1,0 +1,33 @@
+div{
+	color: white;
+	
+	margin: 200px;
+	background-image:url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg);
+	width: 50%;
+}
+h2{
+	text-align: right;
+	color: #F4FF4B;
+	font-family: Broadway;
+}
+h1{
+	font-family: Algerian;
+	color: #D35400;
+}
+h3{
+	text-align: right;
+	font-style: italic;
+	color: #FF4B4B;
+}
+button{
+	margin-left: 50px;
+	background: brown;
+	height: 30px;
+	width: 150px;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+
+}

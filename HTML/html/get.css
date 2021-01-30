@@ -1,0 +1,58 @@
+ .bo{
+	height: 630px;
+	width: 1350px;
+	background-image: url(bg.jpg);
+}
+.box{position: absolute;
+	top: 120px;
+	left: 420px;
+	height: 400px;
+	width: 500px;
+	background-color: white;
+}
+
+table{
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	height: 300px;
+	width: 400px;
+
+}
+td{
+	font-size: 12px;
+}
+input{
+	border-style: none;
+	background: #E5E7E9;
+}
+.w{
+	height: 25px;
+	width: 400px;
+}
+.e{
+	height: 25px;
+	width: 180px;
+}
+.m{
+	width: 400px;
+	height: 90px;
+
+}
+button{
+	position: absolute;
+	top: 350px;
+	left: 220px;
+	background-color: #7FB3D5;
+	border-style: none;
+	height: 25px;
+	width: 80px;
+	color: white;
+
+}
+caption{
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: arial;
+}

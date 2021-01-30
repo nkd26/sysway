@@ -1,0 +1,44 @@
+.p{
+	height: 117px;
+	width: 200px; 	
+}
+.s
+{
+	margin: 5px;
+	float: left;
+	text-align: center;
+}
+.b{
+	margin: 50px;
+	
+	height: 500px;
+	clear: both;
+}
+.h
+{
+	color: #7206B0;
+	font-style: italic;
+}
+.d{
+	color: green;
+}
+.pr{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+button{
+	margin-left:  50px;
+	background: brown;
+	height: 30px;
+	width: 150px;
+	clear: both;
+	float: left;
+
+}
+.bu{
+	text-decoration: none;
+	color: white;
+
+}

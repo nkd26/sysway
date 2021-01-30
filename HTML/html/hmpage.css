@@ -1,0 +1,60 @@
+.bo{
+	position: absolute;
+	left: 300px;
+	height: 620px;
+	width: 800px;
+	border: 1px solid #808B96;
+	background-image:url(https://assets.newatlas.com/dims4/default/4b30825/2147483647/strip/true/crop/1200x630+0+23/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Focean-freashwater-aquifiers.jpg);
+}
+.na{
+	
+	height: 50px;
+	width: 798px;
+	background-color:#F0F3F4;
+	border: 1px solid #808B96;
+}
+select{
+	border:0px;
+   outline:0px;
+   background: transparent;
+   font-weight: bold;
+   opacity: .6; 
+
+}
+
+h2{
+	position: absolute;
+	left: 50px;
+	opacity: .6;
+}
+p{
+	position: absolute;
+	left: 480px;
+
+}
+a{
+	text-decoration-line: none;
+	color: black;
+	font-weight: bold;
+	opacity: .6;
+}
+.cnt{
+	position: absolute;
+	top: 220px;
+	left: 50px;
+	color: white;
+	
+	width: 700px;
+	height: 200px;
+	text-align: center;
+	font-size: 25px;
+}
+button{
+	font-weight: bold; 	
+	height: 30px;
+	width: 130px;
+	margin-left: 5px;
+	background: transparent;
+	border-color: white;
+	color: white;
+}

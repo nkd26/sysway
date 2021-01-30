@@ -1,0 +1,42 @@
+.i{
+	position: absolute;
+	top: 35px;
+	left: 28px;
+	border-style: none;
+	background: blue;
+	height: 43px;
+	width: 50px;
+	color: white;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.x{
+	position: absolute;
+	top: 5px;
+	left: 80px;
+	border: 2px solid black;
+	width: 80px;
+	height: 40px;
+	font-weight: bolder;
+	font-size: 30px;
+	text-align: center;
+}
+.n{position: absolute;
+	top: 35px;
+	left: 165px;
+	border-style: none;
+	background: red;
+	height: 43px;
+	width: 50px;
+	color: white;
+	font-weight: bolder;
+	cursor: pointer;
+}
+div{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	
+	width: 200px;
+	height: 80px;
+}

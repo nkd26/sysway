@@ -1,0 +1,114 @@
+body{
+	background: black;
+}
+.bo{
+	position: relative;
+	height: 550px;
+	width: 1220px;
+}
+h1{
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	
+	background: none;
+	color: white;
+	font-family: Ink Free;
+	
+	border-style: none;
+	font-size: 50px;
+	text-align: center;
+}
+#A{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	background: #375845;
+	box-shadow: 5px 5px 10px black;
+	color: white;
+	font-family: Ink Free;
+	height: 50px;
+	width: 150px;
+	border-style: none;
+	font-size: 30px;
+}
+#B{
+	position: absolute;
+	top: 150px;
+	left: 800px;
+	background: #375845;
+	box-shadow: 5px 5px 10px black;
+	background: none;
+	color: white;
+	font-family: Ink Free;
+	height: 50px;
+	width: 80px;
+	border-style: none;
+	font-size: 30px;
+}
+select option {
+    background-color:#375845; 
+}
+#am{
+	position: absolute;
+	top: 150px;
+	left: 400px;
+	background: none;
+	color: white;
+	font-family: Ink Free;
+	height: 50px;
+	width: 250px;
+	border-style: none;
+	font-size: 40px;
+	border-radius: 20px;	
+	border: 1px solid;
+	text-align: center;
+	background: #375845;
+	box-shadow: 5px 5px 10px black;
+}
+#to{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	background: none;
+	color: white;
+	font-family: Ink Free;
+	height: 50px;
+	width: 500px;
+	border-style: none;
+	font-size: 40px;
+	border-radius: 20px;	
+	
+	
+}
+#gst{
+	position: absolute;
+	top: 300px;
+	left: 100px;
+	background: none;
+	color: white;
+	font-family: Ink Free;
+	height: 50px;
+	width: 500px;
+	border-style: none;
+	font-size: 40px;
+	border-radius: 20px;	
+	
+	
+}
+
+#ta{
+	position: absolute;
+	top: 400px;
+	left: 100px;
+	background: none;
+	color: white;
+	font-family: Ink Free;
+	height: 50px;
+	width: 600px;
+	border-style: none;
+	font-size: 40px;
+	border-radius: 20px;	
+		
+}
+

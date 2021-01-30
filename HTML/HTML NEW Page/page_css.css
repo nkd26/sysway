@@ -1,0 +1,55 @@
+body{
+		background-color: #E484AB;
+		background-image: url("https://jooinn.com/images/blank-parchment-texture-3.jpg");
+	}
+h1{
+	 text-align: center;
+	 border: 2px outset #F9F385;
+	 padding: 6px;
+	 color: #F9F337;
+	 background-color: #F72179;
+	 border-radius: 1000px;
+	 box-shadow: 10px 10px 10px gray;
+
+	}
+a{
+	font-size: 20px;
+	color: #F9F337;
+	text-shadow: 2px 2px 5px black;
+}
+P{
+	color: red;
+}
+div{
+		padding: 6px;
+		margin: 65px;
+  		border: 2px outset black;
+
+ 		 background-color: #ED50AF;    
+ 		 text-align: center;
+ 		 border-radius: 100px;
+ 		 box-shadow: 10px 10px 10px ;
+ 		 background-image: url(https://cdn.pixabay.com/photo/2015/09/23/10/33/old-953394_1280.jpg);
+
+}
+div img{
+
+	margin: 10px;
+	padding:2px;
+	border: 3px double;
+	border-bottom: 6px solid red;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: yellow;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 6px 6px gray;
+}
+
+a:hover, a:active {
+  background-color: red;
+} 

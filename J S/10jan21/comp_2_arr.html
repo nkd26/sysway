@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="A" ></p>
+    <script type="text/javascript">
+    	
+    	let a=["cat","bat","ball","bag","car","bat"];
+    let b=["cats","bats","roll","boll","car","run"];
+    	debugger;
+    	for(let i=0;i<a.length;i++)
+    	{
+    		if(a[i]==b[i])
+    		{
+    			z++;
+    		}
+    	}
+
+
+    	if(z==a.length)
+    	{
+    	document.getElementById("A").innerHTML = ("same");
+    	}
+    	else{
+    	document.getElementById("A").innerHTML = ("diff");
+    	}
+        
+        let z = 0;
+    </script>
+</body>
+</html>

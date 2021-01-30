@@ -1,0 +1,181 @@
+
+.bo{
+	position: relative;
+	 
+	height: 630px;
+	width: 1330px;
+}
+nav{
+	 
+	height: 40px;
+	width: 1326px;
+}
+nav img{
+	position: relative;
+	top: 14px;
+	height: 40px;
+	width: 60px;
+}
+.lon{
+	font-family: Snap ITC;
+	font-weight: bold;
+	font-size: 35px;
+	color: #C0392B;
+}
+nav p{
+	position: relative;
+	bottom: 30px;
+}
+.nav{
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+nav select{
+	margin-left: 20px;
+	border-style: none;
+	
+
+}
+.ser{
+	position: relative;
+	top: 5px;
+	height: 20px;
+	width: 25px;
+}
+.ro
+{	position: absolute;
+	top: 50px;
+	left: 10px;
+	background: #9E1717;
+	height: 100px;
+	width: 1326px;
+	text-align: center;
+	margin-bottom: 100px;
+	
+}
+.car{
+	position:absolute;
+	top:-3px;
+	right: 20px;
+	height: 30px;
+	width: 30px;
+}
+.p{
+	color: white;
+}
+.op{
+	opacity: .5;
+}
+.had{
+	font-size: 45px;
+	color: white;
+}
+.cal{
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}
+.app{
+	position: absolute;
+	top: 430px;
+	left: 150px;
+	height: 250px;
+	width: 210px;
+}
+.im1{
+	position: relative;
+	left: 400px;
+	height: 350px;
+	width: 200px;
+}
+.im2{
+	position: relative;
+	bottom: 350px;
+	left: 670px;
+	height: 350px;
+	width: 200px;
+}
+.im3{
+	position: relative;
+	bottom:701px;
+	left: 940px;
+	height: 350px;
+	width: 200px;
+}
+.im4{
+	position: relative;
+	bottom:701px;
+	left: 400px;
+	height: 350px;
+	width: 200px;
+}
+.imgz{
+	height: 250px;
+	width: 250px;
+}
+.im1p{
+	position: absolute;
+	top: 234px;
+	left: 0px;
+	background: blue;
+	width: 60px;
+	height: 70px;
+	color: white;
+}
+.im1s{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+.im1s2{
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+
+}
+.im1p1{
+	position: absolute;
+	left: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	color: red;
+}
+
+.fo{
+	position: absolute;
+	top: 1150px;
+	left: 150px;
+	width: 900px;
+	height: 200px;
+	text-align: left;
+}
+.fo td{
+	
+	padding-left: 50px;
+}
+.fop{
+	font-size: 10px;
+}
+.lpo{
+	height: 70px;
+	
+}
+.forb{ 
+	position: relative;
+	bottom: 500px;
+}
+.pop{
+	position: relative;
+	
+	height: 26px;
+	border-style: none;
+	
+	width: 80px;
+	background: #9E1717;
+	color: white;
+}
+.jm{
+	height: 20px;
+	width: 200px;
+}

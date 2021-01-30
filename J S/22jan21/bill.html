@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<img class="bo" src="https://png.pngtree.com/thumb_back/fh260/background/20191105/pngtree-alarm-clock-book-soccer-school-bag-calculator-container-blackboard-chalk-stationery-image_321412.jpg">
+	<link rel="stylesheet" type="text/css" href="bill.css">
+</head>
+<body>
+	<div>
+<h1>GST CALCULATOR</h1>
+<select id="A" >
+	<option >Category</option>
+	<option  value="5">Food</option>
+    <option  value="12">Electronic</option>
+    <option value="18">Fashion</option>
+
+</select>
+
+<input  id="am" onchange="chan()"  placeholder="Amount ">
+
+
+<select id="B" onchange="y()">
+	<option>Qty</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+</select>
+
+<p id="to"></p>
+<p id="gst"></p>
+<p id="ta"></p>
+</div>
+<script>
+	var c=0;
+function chan()
+
+{
+	c++;
+	if(c>0)
+	{
+	document.getElementById('B').value="Qty";
+	setTimeout(function() {alert("please add quantity")}, 5);
+	}
+}
+function y()
+    {
+    	a=parseInt(document.getElementById('am').value);
+    	var x=parseInt(document.getElementById('A').value);
+    var y=parseInt(document.getElementById('B').value);
+    c= y*a
+
+    g5=parseFloat(((c/100)*5).toFixed(3));
+   
+    g12=parseFloat(((c/100)*12).toFixed(3));
+    g18=parseFloat(((c/100)*18).toFixed(3));
+    k=c+g5;
+    l=c+g12;
+    m=c+g18;
+
+    document.getElementById('to').innerHTML ="Total Amount ="+c;
+     
+   
+   switch (x){
+   	case 5: document.getElementById('gst').innerHTML ="GST Of 5% ="+g5
+   	  		document.getElementById('ta').innerHTML ="Grand Total Amount ="+ k
+   	        break;
+
+
+   	case 12: document.getElementById('gst').innerHTML ="GST Of 12% =" +g12
+   			 document.getElementById('ta').innerHTML = "Grand Total Amount ="+ l
+   	       	 break;
+
+
+   	case 18: document.getElementById('gst').innerHTML ="GST Of 18%  "+g18
+   			 document.getElementById('ta').innerHTML = "Grand Total Amount ="+m
+   	        break;
+
+    }
+    
+	
+}
+
+</script>
+</body>
+</html>

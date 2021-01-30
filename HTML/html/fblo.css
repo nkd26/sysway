@@ -1,0 +1,89 @@
+body
+{
+	background: #ECF0F1 ;
+}
+.bo{
+	width: 500px;
+	height: 500px;
+}
+.fb{
+	height: 70px;
+	width: 100%;
+	padding-top: 2px;
+	background-color: #4A5BA9;
+	padding-left: 200px;
+}
+.tf{
+	font-size: 40px;
+	color: white;
+	font-family: Aharoni;
+	font-weight: bolder;
+}
+.cr{
+	position: absolute;
+	right: 200px;
+	background-color:#3DBF2B;
+	color: white;
+	border:none;
+	font-size: 15px;
+}
+.lg{
+	
+	height: 550px;
+	width: 50%;
+	position: absolute;
+	left: 400px;
+}
+.h{
+	font-size: 22px;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;	
+	opacity: 0.8;
+
+}
+.h1{
+	font-size: 40px;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+.n{
+	height: 35px;
+	width: 250px;
+	border-radius: 7px;
+	border: 1px solid #D7DBDD;
+}
+.m{
+	height: 35px;
+	width: 530px;
+	border-radius: 7px;
+	border: 1px solid #D7DBDD;
+}
+.dob{
+	font-size: 18px;
+	font-weight: bold;
+	opacity: .7;
+	
+}
+.d{
+	height: 20px;
+	width: 30px;
+	font-size: 10px;
+	font-weight: bold;
+	border-radius: 7px;
+	border: 1px solid #D7DBDD;
+
+}
+.Y{
+	height: 20px;
+	width: 50px;
+	font-size: 10px;
+	font-weight: bold;
+	border-radius: 7px;
+	border: 1px solid #D7DBDD;
+}
+.su{
+	height: 40px;
+	width: 200px;
+	border-radius: 7px;
+	color: white;
+	background-color: #4A5BA9;
+	border: 1px solid #D7DBDD;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="conv.css">
+
+</head>
+<body>
+
+	<img class="bo" src="https://img4.goodfon.com/wallpaper/nbig/3/39/savings-money-economy.jpg">
+	<div>
+	<select id="A" onchange="b()">
+		<option >CURRENCY</option>
+		<option value= "73.01">USD</option>
+		<option value="88.77">EUR</option>
+		<option value="11.26">CNY</option>
+		<option value="100.03">GBP</option>
+	</select>
+	<p id="z">INR<img class="fl" src="https://www.countryflags.com/wp-content/uploads/india-flag-png-xl.png"></p>
+
+	<input oninput="a()" placeholder="Enter Amount" id="B">
+	<p id="amo"></p>
+</div>
+<script type="text/javascript">
+function a()
+{
+	var b = document.getElementById('B').value;
+	var c= b.length;
+	if(c!=0)
+	{
+	
+	var a = parseFloat(document.getElementById('A').value);
+	var b = parseInt(document.getElementById('B').value);
+
+	switch (a)
+	{
+		case 73.01 : document.getElementById('amo').innerHTML = (a*b).toFixed(3);
+					 break;
+		case 88.77 : document.getElementById('amo').innerHTML = (a*b).toFixed(3);
+					 break;
+		case 11.26 : document.getElementById('amo').innerHTML = (a*b).toFixed(3);
+					 break;
+		case 100.03 : document.getElementById('amo').innerHTML = (a*b).toFixed(3);
+					 break;
+
+		}
+	}
+	else {
+		document.getElementById('amo').innerHTML = " ";
+	}
+}
+function b(){
+	var b = document.getElementById('B').value;
+	var c= b.length;
+	if(c!=0)
+	{
+		a()
+	}
+
+}
+</script>
+</body>
+</html>

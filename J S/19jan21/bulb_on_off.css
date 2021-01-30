@@ -1,0 +1,46 @@
+body{
+	background: #CCD1D1;
+}
+.bo{
+	position: absolute;
+	left: 400px;
+	top: 0px;
+	height: 620px;
+	width: 600px;
+}
+img{
+	position: absolute;
+	top: 90px;
+	left: 565px;
+	height: 270px;
+	width: 270px;
+
+}
+button{
+	border-style: none;
+	border-radius: 20px;
+
+
+}
+#on{
+	position: absolute;
+	top: 500px;
+	left: 420px;
+	height: 40px;
+	width: 100px;
+		background: lightgreen;
+		font-weight: bolder;
+		color: white;
+		cursor: pointer;	
+}
+#off{
+	position: absolute;
+	top: 500px;
+	left: 850px;
+	height: 40px;
+	width: 100px;
+	background:lightblue;
+	color: white;
+	cursor: pointer;
+		font-weight: bolder;
+}

@@ -1,0 +1,34 @@
+body{
+	background-image: url(https://images.freeimages.com/images/small-previews/fb2/old-paper-texture-macro-1527240.jpg);
+	}
+h1{
+	text-align: center;
+	border: 2px solid;
+	border-radius: 20px;
+	box-shadow: 5px 5px gray;
+	background-color: #BB8FCE;
+}
+.d{
+	border-right: 4px solid black;
+	width: 150px;
+	height: 500px;
+	float: left;
+}
+.l{
+	
+	margin-left: 10%;
+	width: 50%;
+	float: left;
+	
+
+}
+div pre{
+	font-size:20px;
+}
+b img{
+	float: right;
+	margin: 20px;
+	border: 4px dotted;
+	width: 200px;
+	height: 200px;
+}

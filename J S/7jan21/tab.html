@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="tab.css">
+
+</head>
+<body>
+	<p id="p"></p>
+<script type="text/javascript">
+	let r=0;
+	let a = prompt("enter first value",);
+	let ai=parseInt(a)
+	console.log("the Table of "+a);
+	tab="<table>"
+	tab += "<th>1st value</th>";
+	tab += "<th>2nd value</th>";
+	tab += "<th>result</th>";
+
+	for(let i=1;i<=10;i++)
+	{
+		x=ai*i;
+		tab+="<tr>"
+		tab += "<td>"+ a +"</td>";
+		tab += "<td>"+ i +"</td>";
+		tab += "<td>"+ x +"</td>";
+		tab +="<tr>";
+	}
+	document.getElementById('p').innerHTML= tab;
+	
+</script>
+</body>
+</html>

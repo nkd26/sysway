@@ -1,0 +1,15 @@
+#a{
+	position: relative;
+	background: pink;
+	height: 500px;
+	width: 500px;
+	
+}
+#b{
+	position: absolute;
+	width: 58px;
+	height: 50px;
+	background: lightgreen;
+	top: 0px;
+
+}

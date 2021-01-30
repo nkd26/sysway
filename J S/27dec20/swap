@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		var a=16;
+		var b=90;
+		console.log("before swap");
+		console.log(a);
+		console.log(b);
+		console.log("After swap");
+		var c=a;
+		a=b;
+		b=c;
+		
+		
+		console.log(a);
+		console.log(b);
+
+</script>
+</body>
+</html>

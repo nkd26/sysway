@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="log.css">
+</head>
+<body>
+
+	<img class="boi" src="https://i.ytimg.com/vi/uNCr7NdOJgw/maxresdefault.jpg">
+<div class="bo">
+	<h2>SIGN UP</h2>
+	<input id="fn" class="user" type="text" placeholder="First Name">
+	<p id="a"></p>
+	<input id="ln" class="user" type="text" placeholder="Last Name">
+	<p id="b"></p>
+	<input id="ei" class="user" type="text" placeholder="Email id">
+	<p id="c"></p>
+	<input id="mn" class="user" type="text" placeholder="Mobile Number">
+	<p id="d"></p>
+	<a onclick="ch()" class="da"><button class="ub">Sign up</button></a>
+	<script type="text/javascript">
+		function ch()
+		{
+			var a=(document.getElementById('fn').value).length;
+			console.log(a);
+			var b=(document.getElementById('ln').value).length;
+			console.log(b);
+			var c=(document.getElementById('ei').value).length;
+			console.log(c);
+			var d=(document.getElementById('mn').value).length;
+			console.log(d);
+			if(a<=0)
+			{
+					document.getElementById('a').innerHTML="*First Name Required"
+			}else{
+				document.getElementById('a').innerHTML=" "
+			}
+			if(b<=0)
+			{
+					document.getElementById('b').innerHTML="*Lasr Name Required"
+			}else{
+				document.getElementById('b').innerHTML=" "
+			}
+			if(c<=0)
+			{
+					document.getElementById('c').innerHTML="*Email idRequired"
+			}else{
+				document.getElementById('c').innerHTML=" "
+			}
+			if(d<=0)
+			{
+					document.getElementById('d').innerHTML="*Mobile Number Required"
+			}else{
+				document.getElementById('d').innerHTML=" "
+			}
+			if(a>=1 && b>=1 && c>=1 && d>=1)
+			{
+				setTimeout(function(){
+				alert("Form submit sucessfull")
+					},200);
+
+			}
+
+		}
+
+	</script>
+</div>
+</body>
+</html>

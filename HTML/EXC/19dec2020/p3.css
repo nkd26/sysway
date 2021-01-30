@@ -1,0 +1,79 @@
+body{
+	background: #574044;
+}
+.bo{
+	position: relative;
+	
+	height: 630px;
+	width: 1150px;
+	filter: contrast(80%);
+	filter: brightness(70%);
+}
+.nev{
+	position: absolute;
+	top: 2px;
+	
+	height: 60px;
+	width: 1350px;	
+	background: #3CDFEC;
+}
+img{
+	position: absolute;
+	height: 640px;
+	width: 1350px;
+}
+
+.styt{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+select{
+	background: transparent;
+	outline: none;
+	border-style: none;
+}
+option{
+	color: #F3254C;
+}
+.lo{
+	color: white;
+	font-weight: bold;
+	font-family:Forte;
+	font-size: 30px;
+}
+
+.con{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	
+	color: white;
+	height: 300px;
+	width: 900px;
+	
+}
+.conp{
+	font-size: 20px;
+}
+.cp{
+	font-size: 50px;
+}
+.sub{
+	height: 40px;
+	width: 220px;
+	
+	border-style: none;
+	color: white;
+	background:#3CDFEC;
+	font-weight: bold;
+}
+.sub1{
+	height: 40px;
+	width: 220px;
+	
+	border:1px solid white;
+	color: white;
+	background:transparent;
+	font-weight: bold;
+}

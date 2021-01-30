@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="ass2.css">
+</head>
+<body>
+	<img src="https://media.istockphoto.com/photos/autumn-maple-leaves-falling-leaves-natural-background-picture-id1041708400?k=6&m=1041708400&s=612x612&w=0&h=fOcHQawDo1o4rb0S9RS1zxce9Y4UZRDckUNvpuf8ls8=">
+<input type="text" id="basic" placeholder="Enter text">
+<button id="a" onclick="foo()"> ADD </button>
+<a href="file:///D:/J%20S/17jan21/ass2.html"> <button id="b" onclick="b()"> CLEAR ALL </button></a>
+<p id="te"></p>
+
+
+<script type="text/javascript">
+
+	var x="<ul id=my>"
+
+var foo = function(){
+
+		 x = x +"<li>"+ document.getElementById('basic').value 
+		document.getElementById('basic').value=" ";
+		document.getElementById('te').innerHTML=x;
+  var button = document.createElement('button');
+  button.innerHTML = 'Delete';
+  
+
+
+  button.onclick = function(){
+  	var list = document.getElementById("my");
+  list.removeChild(list.childNodes[0]);
+  x="<ul id=my>";
+  button.remove()
+  };
+
+  document.body.appendChild(button);
+};+"<li>";
+</script>
+</body>
+</html>

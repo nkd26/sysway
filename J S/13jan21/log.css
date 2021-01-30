@@ -1,0 +1,65 @@
+body{
+	background: black;
+}
+.boi{
+	height: 605px;
+	width: 1350px;
+	filter: contrast(40%);
+	filter: brightness(40%);
+}
+.bo{
+	
+	height: 500px;
+	width: 350px;
+	position: absolute;
+	top: 20px;
+	left: 500px;
+	text-align: center;
+	
+}
+p{
+	color: red;
+	height: 20px;
+	position: relative;
+	top: 10px;
+	left: 25px;
+	width: 200px;
+	text-align: left;
+}
+h2{
+	color: white;
+
+}
+.user{
+	position: relative;
+	top: 20px;
+	height: 40px;
+	width: 300px;
+	
+	background: rgba(255,255,255,.1);
+	border-style: none;
+	border-bottom: 2px solid #3CB2F1;
+	border-radius: 5px;
+	color: black;
+}
+.ub{
+	position: relative;
+	top: 50px;
+	height: 40px;
+	width: 300px;
+	margin-bottom: 50px;
+	background: #3CB2F1;
+	border-style: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bolder;
+	cursor: pointer;
+}
+		
+button:hover{
+	box-shadow: 2px 2px 6px white;
+
+}
+input:hover{
+	background: white;
+}

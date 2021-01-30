@@ -1,0 +1,35 @@
+.m{
+	
+	height: 700px;
+	width: 60%;
+}
+.f{
+	padding-top: 200px;
+	text-align: center;
+	color: white ;
+	border: 2px solid #FF4900;
+	height: 400px;
+	background-image: url(bgp.jpg); 
+}
+.s{
+	border: 2px solid #FF4900;
+	height: 310px;
+	background-color: #FF4900 ;
+	text-align: center;
+}
+.bu{
+	border-radius: 70px;
+	background-color: #FF4900;
+	color: white;
+	height: 50px;
+	width: 120px;
+	border:none;
+}
+.bs{
+	border-radius: 70px;
+	
+	
+	height: 50px;
+	width: 120px;
+	border:none;
+}

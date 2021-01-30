@@ -1,0 +1,110 @@
+body{
+	background: #F4F6F7;
+}
+.a {
+	
+	text-align: center;
+}
+tr{
+	position: absolute;
+	left: 200px;
+	border-spacing: 60px;
+
+}
+td img
+{
+	width: 250px;
+	height: 200px;
+}
+.t{
+	position: absolute;
+	top: 430px;
+	left: 620px;
+	background: #1CCBD1;
+	color: white;
+	border: none;
+	height: 30px;
+
+}
+.b img{
+	width: 1330px;
+	height: 200px;
+	position: absolute;
+	top: 500px;
+	
+}
+.bb{
+	position: absolute;
+	top: 550px;
+	left: 430px;
+	text-align: center;
+	color: white;
+}
+.c tr{
+	
+	
+}
+.c td {
+	border-spacing: 150px;
+}
+.c{	background: white;
+	position: absolute;
+	top: 700px;
+	
+	width: 1330px;
+	height: 150px;
+}
+.fo{
+	background: #1D1F1F;
+	position: absolute;
+	top: 850px;
+	
+	height: 300px;
+	width: 1330px;
+}
+
+li{
+	list-style-type: none;
+}
+.ab{
+	position: absolute;
+	left: 200px;
+	color: white;
+	float: left;
+}
+.bc{
+	position: absolute;
+	left: 500px;
+	color: white;
+	float: left;
+
+}
+.cd{
+	position: absolute;
+	left: 800px;
+	color: white;
+}
+.las{
+	background: black;
+	position: absolute;
+	bottom: 0px;
+	height: 30px;
+	width: 1330px;
+}
+
+input{
+	color: black;
+}
+.btu{
+
+	background: #1CCBD1;
+	color: white;
+	border: none;
+	height: 30px;
+	margin-top: 5px;
+}
+h4{
+	margin-left: 100px;
+	margin-top: 8px;
+	color: white;
+}

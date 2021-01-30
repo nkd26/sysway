@@ -1,0 +1,50 @@
+body{
+	background: gray;
+}
+.bo{
+	background-image: url(bg.jpg);
+	height: 630px;
+	width: 1200px;
+	
+	position: relative;
+	top: 10px;
+	left: 80px;
+
+}
+.cn
+{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Snap ITC;
+	color: red;
+
+}
+.mcp{
+	font-weight: bold;
+}
+.sc{
+	color: red;
+	font-size: 12px;
+}
+.mh{
+	font-size: 40px;
+
+	}
+
+.z{
+	font-size: 12px;
+	color: #707B7C;
+}
+button{
+	border-style: none;
+	background: black;
+	color: white;
+	font-weight: bold;
+	height: 35px;
+	width: 140px;
+}
+.mc{
+	position: absolute;
+	top: 180px;
+	left: 160px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	let r=0;
+	let a = prompt("enter first value",);
+	let ai=parseInt(a)
+	let o = prompt("enter operator");
+
+	let b=prompt("enter 2nd value");
+	let bi=parseInt(b)
+	if(o==+)
+	{
+		r=a+b;
+	}
+	switch(o)
+	{
+	case "+":
+			r=ai+bi;
+			break;
+	
+	case "-":
+			r=ai-bi;
+			break;
+	
+	case "*":
+			r=ai*bi;
+			break;
+	
+	case "/":
+			r=ai/bi;
+			break;
+	case "%":
+			r=ai%bi;
+			break;
+	default:
+			r="invalid operator"
+	}
+	console.log("the value of "+a + o + + b + " is "+r);
+</script>
+</body>
+</html>

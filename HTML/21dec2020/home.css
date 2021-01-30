@@ -1,0 +1,184 @@
+body{
+	background: #ECF0F1;
+}
+.bo{
+	position: relative;
+	 
+	height: 630px;
+	width: 1330px;
+}
+nav{
+	 
+	height: 40px;
+	width: 1326px;
+}
+nav img{
+	position: relative;
+	top: 14px;
+	height: 40px;
+	width: 60px;
+}
+.lon{
+	font-family: Snap ITC;
+	font-weight: bold;
+	font-size: 35px;
+	color: #C0392B;
+}
+nav p{
+	position: relative;
+	bottom: 30px;
+}
+.nav{
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+nav select{
+	margin-left: 20px;
+	border-style: none;
+	background: #ECF0F1;
+
+}
+.ser{
+	position: relative;
+	top: 5px;
+	height: 20px;
+	width: 25px;
+}
+.ro
+{	position: absolute;
+	top: 50px;
+	left: 10px;
+	 
+	background: #9E1717;
+	height: 60px;
+	width: 1326px;
+	text-align: center;
+	margin-bottom: 100px;
+	
+}
+.car{
+	position:absolute;
+	top:-3px;
+	right: 20px;
+	height: 30px;
+	width: 30px;
+}
+.ro p{
+	color: white;
+}
+.ro span{
+	opacity: .5;
+}
+.cont{
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	 
+	height: 700px;
+	width: 650px;
+}
+.cou{
+		position: absolute;
+		left: 120px;
+}
+.pic img{
+	
+	height: 200px;
+	width: 350px;
+	
+	}
+.pic{
+
+	height: 360px;
+	width: 350px;
+	background: white;
+}
+.pic1{
+	margin-top: 20px;
+	height: 200px;
+	width: 350px;
+	}
+.cou{
+	 
+	height: 750px;
+	width: 350px;
+}
+.box{
+	border: 2px solid red;
+	border-radius: 5px;
+	
+}
+.ul1{
+	float: left;
+}
+.ul2{
+	position: relative;
+	left: 40px;
+	top: 17px;
+}
+li{
+	margin: 10px;
+	list-style-type: none;
+	color: red;
+
+}
+aside{
+	
+	position: absolute;
+	padding-left: 10px;
+	top: 1px;
+	left: 350px; 
+	height: 578px;
+	width: 250px;
+}
+.zzz{
+	height: 305px;
+	width: 255px;
+}
+.nkd{
+	
+	height: 575px;
+	width: 200px;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	text-align: center;
+	color: #808B96 ;
+}
+.ni{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+}
+.vr1{
+	border-left: 1px solid #808B96;
+	height: 250px;
+	position: absolute;
+	top: 140px;
+	left: 100px;
+}
+.h1{
+	position: absolute;
+	top: 80px;
+	left: 155px;
+	width: 55px;
+	color: #808B96;
+
+}
+.h2{
+	position: absolute;
+	top: 470px;
+	left: 155px;
+	width: 55px;
+	color: #808B96;
+
+
+}
+.vr2{
+	border-left: 1px solid #808B96;
+	height: 50px;
+	position: absolute;
+	top: 530px;
+	left: 100px;
+}

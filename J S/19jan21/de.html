@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="de.css">
+</head>
+<body>
+
+  <p id="a">
+ <p id="b"></p>
+  </p>
+
+  <button onclick="moveon()">click me</button>
+
+  <script type="text/javascript">
+    function moveon(){
+       var c=document.getElementById('b');
+       var d=0;
+
+      var e = setInterval (f,5)
+
+
+
+      function f(){
+
+        if (d==450){
+         
+      clearIntreval(e)
+
+      }
+      else{
+         d++;
+         b.style.top= d + "px"
+         b.style.left= d + "px"
+
+        }
+      }
+
+
+
+
+    }
+
+
+
+
+  </script>
+
+</body>
+</html>
